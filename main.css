@@ -1,8 +1,45 @@
 /* Your code here */
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.header-nav__container {
+    background-color: #026AA7;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 4px;
+    color: white;
+
+    /* SOLUTION */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_icons #alerts {
+    background-color: #cf513d;
+}
+
+.header-nav__group {
+    margin: 0 0.2rem;
+    padding: 0 0.2rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 730px) {
+    /* Hide the header search input field. */
+    /* Hide the "Boards" text, but leave the boards icon. */
+    #search input,
+    #boards .boards-label {
+	display: none;
+    }
+}
 
 /* Supplied CSS follows. */
 .header-nav__group{
-  display: flex;
+    display: flex;
 }
 
 .header-nav__button {
