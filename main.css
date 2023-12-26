@@ -118,7 +118,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    background-color: red;
 }
 .boards__board {
     background-color: hotpink;
